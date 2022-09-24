@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+
+table {
+  text-align: left;
+}
+
+h1 {
+  text-align: left;
+}
+
+#createStatus {
+  margin: 1rem;
+}
+
+.navbar-brand {
+  padding: 0 0 0 1rem;
+}
+
+.centerContent {
+  padding: 20px;
+  flex-flow: column;
+  width: fit-content !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
