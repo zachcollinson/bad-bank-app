@@ -17,11 +17,11 @@ Note: For simplicity, this app uses [React Context](https://reactjs.org/docs/con
 
 This app can be viewed online at:
 
-http://bank-bank-robert-dawson.s3-website-us-west-1.amazonaws.com/#/
+http://zach-collinsonbankingapplication.s3-website-us-west-1.amazonaws.com/#/
 
 ## Installation Guidelines
 
-First, download this repo using `git clone https://github.com/robertcdawson/mit-bad-bank.git`.
+First, download this repo using `git clone https://github.com/zachcollinson/mit-bad-bank.git`.
 
 ### Available Scripts
 
