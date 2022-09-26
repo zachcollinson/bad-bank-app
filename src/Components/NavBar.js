@@ -1,6 +1,11 @@
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 import '../App.css';
 import React from 'react';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
+
 
 function NavBar() {
   const renderTooltip = (desc, props) => (
@@ -20,7 +25,7 @@ function NavBar() {
             <li className="nav-item">
               <OverlayTrigger
                 placement="bottom"
-                delay={{ show: 250, hide: 400 }}
+                delay={{ show: 250, hide: 100 }}
                 overlay={() => renderTooltip('Create a new account')}
               >
                 <a className="nav-link" href="#/CreateAccount/">Create Account</a>
@@ -29,7 +34,7 @@ function NavBar() {
             <li className="nav-item">
               <OverlayTrigger
                 placement="bottom"
-                delay={{ show: 250, hide: 400 }}
+                delay={{ show: 250, hide: 100 }}
                 overlay={() => renderTooltip('Make a deposit')}
               >
                 <a className="nav-link" href="#/deposit/">Deposit</a>
@@ -38,7 +43,7 @@ function NavBar() {
             <li className="nav-item">
               <OverlayTrigger
                 placement="bottom"
-                delay={{ show: 250, hide: 400 }}
+                delay={{ show: 250, hide: 100 }}
                 overlay={() => renderTooltip('Make a withdrawal')}
               >
                 <a className="nav-link" href="#/withdraw/">Withdraw</a>
@@ -47,7 +52,7 @@ function NavBar() {
             <li className="nav-item">
               <OverlayTrigger
                 placement="bottom"
-                delay={{ show: 250, hide: 400 }}
+                delay={{ show: 250, hide: 100 }}
                 overlay={() => renderTooltip('View all account data')}
               >
                 <a className="nav-link" href="#/alldata/">AllData</a>
