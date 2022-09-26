@@ -16,8 +16,7 @@ Note: For simplicity, this app uses [React Context](https://reactjs.org/docs/con
 ## View Online
 
 This app can be viewed online at:
-
-http://zach-collinsonbankingapplication.s3-website-us-west-1.amazonaws.com/#/
+http://zach-collinsonbankingapplication.s3-website-us-east-1.amazonaws.com/
 
 ## Installation Guidelines
 
