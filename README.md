@@ -21,7 +21,7 @@ http://zach-collinsonbankingapplication.s3-website-us-west-1.amazonaws.com/#/
 
 ## Installation Guidelines
 
-First, download this repo using `git clone https://github.com/zachcollinson/mit-bad-bank.git`.
+First, download this repo using git clone https://github.com/zachcollinson/mit-bad-bank.git.
 
 ### Available Scripts
 
